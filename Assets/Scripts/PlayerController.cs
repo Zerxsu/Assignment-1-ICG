@@ -35,11 +35,10 @@ public class PlayerController : MonoBehaviour
 
         isGrounded = controller.isGrounded;
 
-        if (isGrounded && velocity.y < 0) 
+        if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
-
 
         // Get input from the horizontal and vertical axes (WASD or Arrow keys)
         float horizontal = Input.GetAxisRaw("Horizontal");
@@ -79,12 +78,12 @@ public class PlayerController : MonoBehaviour
 
             if (isMovementPressed && (Input.GetKey(KeyCode.LeftShift)))
             {
-                speed = 6f;
+                speed = 8f;
                 isRunningPressed = true;
             }
             else
             {
-                speed = 2f;
+                speed = 3f;
                 isRunningPressed = false;
             }
         }
