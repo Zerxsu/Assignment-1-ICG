@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayAgainScreen : MonoBehaviour
 {
@@ -51,5 +52,23 @@ public class PlayAgainScreen : MonoBehaviour
             uiPanel.SetActive(false); // Hide the UI panel
             UnfreezeGame(); // Unfreeze the game
         }
+    }
+
+    // This method will be called when the scene is loaded
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    // This is where we reset time scale after scene load
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Time.timeScale = 1; // Ensure the game time is unfrozen after loading a new scene
+        isFrozen = false;   // Reset the frozen state
     }
 }
