@@ -1,5 +1,5 @@
 # Assignment 1 ICG
-This game is finished and will be uploaded on my itch as a finalized game
+This game is finished and will be uploaded on my itch as a finalized game.
 
 I will start this readme by explaining in depth by explaining the key components that make of this project, how it was added, why it was added, and how it fits the scene.
 There will also be a READMEmp4, which will demonstrate me visually showcasing mechanics/concepts of exactly how certain things function within the project.
