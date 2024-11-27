@@ -4,7 +4,7 @@ This game is finished and will be uploaded on my itch as a finalized game
 I will start this readme by explaining in depth by explaining the key components that make of this project, how it was added, why it was added, and how it fits the scene.
 There will also be a READMEmp4, which will demonstrate me visually showcasing mechanics/concepts of exactly how certain things function within the project.
 
-Contents (each topic talked about for each level (Volcano & Crystal Dungeon))
+**Contents (each topic talked about for each level (Volcano & Crystal Dungeon))**
 - Game Idea
 - Shaders
 - Textures
@@ -12,6 +12,7 @@ Contents (each topic talked about for each level (Volcano & Crystal Dungeon))
 - Final Notes
 
 **Game Idea**
+
 This game is a parkour escape game with 2 main levels with them being escaping a volcano and a crystal dungeon. Each level has a different colour pallete which makes them unique, as well as different types of devices that can harm you. There are specific objects that can take a life away from your player, and there are also checkpoint through the course that the player can respawn at if they we're to lose a life. Different shaders are in play for each level to give them their unique appearances and general feel.
 
 
@@ -33,9 +34,9 @@ The volcano used very minimal textures as at the time I didn't fully understand 
 
 **VFX**
 
-   - Particles: The main big VFX that was present in the volcano was the particles implemented with Unity's particle system. They we're created to simulate rising embers as you are in a heated environment which is on fire. They had a color gradation from deep red to bright yellow and they got higher and smaller within the volcano to showcase them "fading away". I ended up getting the exact effect I wanted and heard good criticism about the implementation so no further tweaking was necessary for part 2 of this assignment.
+   **- Particles:** The main big VFX that was present in the volcano was the particles implemented with Unity's particle system. They we're created to simulate rising embers as you are in a heated environment which is on fire. They had a color gradation from deep red to bright yellow and they got higher and smaller within the volcano to showcase them "fading away". I ended up getting the exact effect I wanted and heard good criticism about the implementation so no further tweaking was necessary for part 2 of this assignment.
 
-   - Color Grading: The color grading was implemented by taking and LUT into an image editing software along with a screen shot of my base game. I put visual effect on the image and it was also applied to the LUT. A script was made to hold the LUT and it was assigned to a material then placed onto the main camera to take effect. What I created for the volcano scene was a slight firey red/orang tint to furthermore, extract the feel of being a hot enivironment. I added this because  the base colors in the scene weren't appealing enough and I wanted to change the entire feel.
+   **- Color Grading:** The color grading was implemented by taking and LUT into an image editing software along with a screen shot of my base game. I put visual effect on the image and it was also applied to the LUT. A script was made to hold the LUT and it was assigned to a material then placed onto the main camera to take effect. What I created for the volcano scene was a slight firey red/orang tint to furthermore, extract the feel of being a hot enivironment. I added this because  the base colors in the scene weren't appealing enough and I wanted to change the entire feel.
 
 **Final notes**
 
@@ -81,11 +82,11 @@ To simply put it, each model had 3 materials, each material had a shader with 4 
 **VFX**
 
 I have 2 semi new VFX's and a brand new VFX when compared to the volcano level.
-   - Particles: I recreated the particles so they behave like fireflies. This gives a vibe that you're in a mystical environment with unique life but still in a area not for the faint of heart. I also created a new unity particle shader with an emission added, and created a particle texture in photoshop. With these changes I was able to make spherical particles that glow to simulate fireflies. I also adjust their movement pathing so they move randomly with no set pathing. This simulates it being alive and going for the exact effect that I want.
+   **- Particles:** I recreated the particles so they behave like fireflies. This gives a vibe that you're in a mystical environment with unique life but still in a area not for the faint of heart. I also created a new unity particle shader with an emission added, and created a particle texture in photoshop. With these changes I was able to make spherical particles that glow to simulate fireflies. I also adjust their movement pathing so they move randomly with no set pathing. This simulates it being alive and going for the exact effect that I want.
 
-   - Color Grading: Unlike the volcano level needing to feel hot to simulate being in a heated environment. There's no noticable temperature for the crystal dungeon, but since there's bright blue fire flies, and blue crystals, I wanted to change the color grading to the feel of the environment, and to do that i gave the camera a slight blue tint, and increased saturations to make the colors pop out more. The effect was exactly what I was hoping for and it perfectly showcases they your in a "cool" enivronment.
+   **- Color Grading:** Unlike the volcano level needing to feel hot to simulate being in a heated environment. There's no noticable temperature for the crystal dungeon, but since there's bright blue fire flies, and blue crystals, I wanted to change the color grading to the feel of the environment, and to do that i gave the camera a slight blue tint, and increased saturations to make the colors pop out more. The effect was exactly what I was hoping for and it perfectly showcases they your in a "cool" enivronment.
 
-   - Water Shader: I don't know if this is considered a visual effect but I think it is since it's visually being adjusted on the screen. I already went in detail about how this functions works in the shader tab above. However like I said, I dont want things to feel "flat" so I gave the water a wave effect to make the environment feel more lively than static.
+   **- Water Shader:** I don't know if this is considered a visual effect but I think it is since it's visually being adjusted on the screen. I already went in detail about how this functions works in the shader tab above. However like I said, I dont want things to feel "flat" so I gave the water a wave effect to make the environment feel more lively than static.
 
 **Final Notes**
 
