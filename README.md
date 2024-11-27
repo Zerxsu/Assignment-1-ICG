@@ -76,6 +76,7 @@ I explained some of the textures above but I will also go a bit more in depth he
    - Stair
    - SwingingAxe
    - WallSlant
+     
 Every single one of these models has 5 texture maps, Normal map, Albedo, Metallic, Roughness, and Height. I used a custom script which helps combine the metallic and roughness shader into one, and each texture for each models was assigned to 3 materials with each material having a different shader which them being ambient, specular, or diffuse based. 
 To simply put it, each model had 3 materials, each material had a shader with 4 texture slots, there are 3 shaders for 3 lighting models. Visually this will be easier to understand in the video report but it's difficult to express in words.
 
