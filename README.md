@@ -2,7 +2,7 @@
 This game is finished and will be uploaded on my itch as a finalized game.
 
 I will start this readme by explaining in depth the key components that make of this project, how it was added, why it was added, and how it fits the scene.
-There will also be a READMEmp4, which will demonstrate me visually showcasing mechanics/concepts of exactly how certain things function within the project.
+There will also be a youtube link at the bottom of this read me which will demonstrate me visually showcasing mechanics/concepts of exactly how certain things function within the project.
 
 **Contents (each topic talked about for each level (Volcano & Crystal Dungeon))**
 - Game Idea
@@ -92,6 +92,10 @@ I have 2 semi new VFX's and a brand new VFX when compared to the volcano level.
 **Final Notes**
 
 I am so incredibly happy with this project and I will be posting it on my itch page for other people to play. Since I worked completely alone all the ideas and planning was my own but that doesn't mean it was easy. I worked tireslly like 10+ hour on multiple days to make complete this assignment. I love the vibe I created with the crystal dungeon and will most likely update the game to make the volcano level feel a bit more lively when compared to the crystal level.
+
+**Youtube link to game showcase**: 
+https://youtu.be/LrVJql6iA50
+
 
 
 
